@@ -140,7 +140,7 @@ int main()
     t1=NULL;
 
    
-    read_csv_file("final_ranking.csv",tHash,tHash2);
+    read_csv_file("final_ranking_100000.csv",tHash,tHash2);
     add_score(&t1,tHash);//construction de l'arbre selon le score 
     //add_rang(&t2,tHash);//construction de l'arbre selon le rang
     int i,j;
